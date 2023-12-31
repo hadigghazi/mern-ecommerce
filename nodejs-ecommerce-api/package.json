@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-ecommerce-api",
+  "version": "1.0.0",
+  "description": "NodeJS E-commerce API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "API",
+    "NodeJS"
+  ],
+  "author": "Hadi Ghazi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "stripe": "^14.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
